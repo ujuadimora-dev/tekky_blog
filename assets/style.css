@@ -1,0 +1,38 @@
+/* google font*/
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:ital,wght@0,100;0,300;0,600;1,200;1,300&display=swap');
+
+/* Define custom properties (variables) */
+:root {
+    --container-color: #1a1e21;
+    --second-color: #fd8f44;
+    --text-color: #172317;
+    --bgr-color: #fff;
+  }
+  
+  /* Apply styles using the defined custom properties */
+  * {
+    font-family: 'Gwendolyn', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color: var(--text-color); /* Example of using a custom property */
+    background-color: var(--bgr-color); /* Example of using a custom property */
+  }
+
+  a{
+    text-decoration: none;
+
+  }
+  Li{
+    list-style: none;
+  }
+
+  img{
+    width: 100%;
+}
+ section {
+    padding: 3rem 0 2rem;
+ }
